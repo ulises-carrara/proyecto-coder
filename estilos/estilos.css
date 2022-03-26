@@ -1,0 +1,797 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%; 
+   
+}
+/*CSS INDEX*/
+
+.encabezado{
+    background-color: yellow;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family:Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+}
+.navegacion{
+     border: 2px black solid;
+     background-color: red;
+       position: sticky;
+       top: 0px;
+ 
+}
+.menu li{
+   
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.menu li a{
+    font-family:Syne Mono ;
+    color: black;
+    text-decoration: overline underline;
+
+}
+.menu li:hover{
+   background-color: yellow;
+}
+
+.seccion1{
+   
+   background-color: black;
+}
+.imagen1{
+    margin: 30px;
+}
+.principal{
+
+    background-color: red;
+    font-size: 30px;
+    font-family:Syne Mono;
+}
+
+.footer{
+    display: inline-block;
+   
+    bottom:0px;
+    background-color: black;
+    padding: 5px 10px;
+    border: 3px yellow solid;
+   
+}
+.footer__titulo{
+    color: red;
+    font-family:Syne Mono;
+}
+.footer a{
+    display: inline-block;
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+
+}
+.footer a:hover{
+    background-color: yellow;
+}
+body{
+    background-color: red;
+}
+
+
+/*INTEGRANTES*/
+
+.integrantesEncabezado{
+    background-color: yellow;
+}
+
+ .integrantesTitulo{
+    font-size: 50px;
+    font-family:Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+ }
+
+.integrantesNaveg{
+    border: 2px black solid;
+    background-color: red;
+      position: sticky;
+      top: 0px;
+
+}
+
+.integrantesMenu li{
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.integrantesMenu li:hover{
+    background-color: yellow;
+
+}
+
+.integrantesMenu li a{
+    font-family:Syne Mono ;
+    color: black;
+    text-decoration: overline underline;
+}
+
+.integrantesMain{
+    background-color: red;
+}
+/*AXL*/
+.axl{
+    background-color: yellow;
+}
+.axlTitulo{
+    font-family:Syne Mono;
+    text-align: center;
+   text-decoration: underline red ;
+   font-size: 25px;
+}
+
+.axlFoto{
+    margin: 0px 550px;
+}
+
+.axlTexto{
+    font-family:Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+/*SLASH*/
+.slashTitulo{
+    font-family:Syne Mono;
+    text-align: center;
+   text-decoration: underline rgb(255, 225, 0) ;
+   font-size: 25px;
+}
+
+.slashFoto{
+    margin: 0px 550px;
+}
+
+.slashTexto{
+    font-family:Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+/*DUFF*/
+.duff{
+    background-color:yellow;
+}
+
+.duffTitulo{
+    font-family:Syne Mono;
+     text-align: center;
+    text-decoration: underline red;
+    font-size: 25px;
+}
+
+.duffFoto{
+    margin: 0px 550px;
+}
+
+.duffTexto{
+    font-family:Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+/*IZZY*/
+.izzyTitulo{
+    font-family:Syne Mono;
+    text-align: center;
+   text-decoration: underline rgb(255, 225, 0) ;
+   font-size: 25px;
+}
+
+.izzyFoto{
+    margin: 0px 550px;
+}
+
+.izzyTexto{
+    font-family:Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+/*STEVEN*/
+.steven{
+    background-color: yellow;
+}
+.stevenTitulo{
+    font-family:Syne Mono;
+    text-align: center;
+   text-decoration: underline red ;
+   font-size: 25px;
+}
+
+.stevenFoto{
+
+    margin: 0px 550px;
+}
+
+.stevenTexto{
+    font-family:Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*HISTORIA*/
+
+.historiaEncabezado{
+    background-color: yellow;
+}
+
+.historiaTitulo{
+    font-size: 50px;
+    font-family:Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+}
+
+.historiaNaveg{
+    border: 2px black solid;
+    background-color: red;
+      position: sticky;
+      top: 0px;
+}
+
+.historiaMenu li{
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.historiaMenu li:hover{
+    background-color: yellow;
+
+}
+
+.historiaMenu li a{
+    font-family:Syne Mono ;
+    color: black;
+    text-decoration: overline underline;
+}
+
+
+.historiaMain{
+    background-image: url(https://i.pinimg.com/originals/2d/60/87/2d60872b171cc9c73d7d903c89150ce6.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+}
+
+.parrafoMain1{
+    font-family:Syne Mono;
+    color:yellow;
+    text-align: center;
+}
+    
+.parrafoMain2{
+    font-family:Syne Mono;
+    color: yellow;
+}
+
+.historiaImg{
+    margin: 0px 500px;
+}
+
+/*DISCOGRAFIA*/
+
+.discografiaEncabezado{
+    background-color: yellow;
+}
+
+.discografiaTitulo{
+    font-size: 50px;
+    font-family:Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+}
+
+.discografiaNaveg{
+    border: 2px black solid;
+    background-color: red;
+      position: sticky;
+      top: 0px;
+}
+
+.discografiaMenu li{
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.discografiaMenu li:hover{
+    background-color: yellow;
+}
+
+.discografiaMenu li a{
+    font-family:Syne Mono ;
+    color: black;
+    text-decoration: overline underline;
+}
+
+.titulo1{
+    font-family:Syne Mono;
+    text-align: center;
+   text-decoration: underline black ;
+   font-size: 25px;
+}
+
+/*CONTACTO*/
+
+.contactoEncabezado{
+    background-color: yellow;
+}
+.contactoTitulo{
+    font-size: 50px;
+    font-family:Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+}
+
+.contactoNaveg{
+    border: 2px black solid;
+    background-color: red;
+      position: sticky;
+      top: 0px;
+}
+
+.contactoMenu li{
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.contactoMenu li:hover{
+    background-color: yellow;
+}
+
+.contactoMenu li a{
+    font-family:Syne Mono ;
+    color: black;
+    text-decoration: overline underline;
+}
+
+.contactoTexto{
+    font-family:Syne Mono;
+    text-align: center;
+    text-decoration: underline yellow;
+    font-size: 20px;
+}
+
+.legend{
+    font-family:Syne Mono;
+    text-decoration:  underline red;
+    font-size: 25px;
+   
+}
+
+.marco{
+    background-color: yellow;
+    border-color: black;
+}
+
+/*grids index*/
+
+.gridsIndex{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0,5fr 0,5fr 0,5fr 1fr 0,5fr ;
+
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "nav nav nav"
+    "texto texto texto"
+    "img img img "
+    "footer . . "
+    ;
+   /* grid-row-gap: 10px;*/
+  justify-items: center;
+}
+
+.encabezado{
+    grid-area: titulo;
+    justify-self: stretch;
+}
+.navegacion{
+    grid-area: nav;
+}
+.principal{
+    grid-area: texto;
+}
+.seccion1{
+    grid-area: img;
+    
+ 
+}
+.footer{
+    grid-area: footer;
+}/*4:20 ;)*/
+
+@media screen and (max-width: 768px) { /*TABLET*/
+
+    .gridsIndex{
+        grid-template-columns: repeat(3,1fr);
+        
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "nav nav nav"
+        "texto texto texto"
+        "img img img"
+        "footer footer footer"
+        ;
+        justify-items: center;
+    }
+
+    .encabezado{
+        grid-area: titulo;
+        
+    }
+    .navegacion{
+        grid-area: nav;
+    }
+    .principal{
+        grid-area: texto;
+        text-align: center;
+    }
+    .seccion1{
+        grid-area: img;
+        background-color: black;
+     
+    }
+    .footer{
+        grid-area: footer;
+    }
+    
+}
+
+@media screen and (max-width: 425px){ /*mobil*/
+   .gridsIndex{
+       grid-template-columns: 1fr;
+      grid-template-areas: 
+      
+      "titulo"
+      "nav"
+      "texto"
+      "img"
+      "footer"
+      
+      ;
+      justify-items: center;
+   }
+   .encabezado{
+    grid-area: titulo;
+    
+    
+}
+.navegacion{
+    grid-area: nav;
+   display: column;
+   
+}
+.principal{
+    grid-area: texto;
+    
+ 
+}
+.seccion1{
+    grid-area: img;
+    
+ 
+}
+.footer{
+    grid-area: footer;
+}
+
+}
+
+/*grids integrantes*/
+
+.gridsIntegrantes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 0.5fr 0.5fr repeat(15, 1fr) 0.5fr ;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "nav nav nav"
+    "tituloaxl tituloaxl tituloaxl"
+    "fotoaxl fotoaxl fotoaxl"
+    "textoaxl textoaxl textoaxl"
+    "tituloslash tituloslash tituloslash"
+    "fotoslash fotoslash fotoslash"
+    "textoslash textoslash textoslash"
+    "tituloduf tituloduf tituloduf"
+    "fotoduf fotoduf fotoduf"
+    "textoduf textoduf textoduf"
+    "tituloizi tituloizi tituloizi"
+    "fotoizi fotoizi fotoizi"
+    "textoizi textoizi textoizi"
+    "titulosteve titulosteve titulosteve"
+    "fotosteve fotosteve fotosteve"
+    "textosteve textosteve textosteve"
+    "footer footer footer"
+    ;
+    justify-items: center;
+    
+    
+}
+.integrantesEncabezado{
+    grid-area: titulo;
+    justify-self: stretch;
+}
+.integrantesNaveg{
+    grid-area: nav;
+}
+.axlTitulo{
+    grid-area: tituloaxl;
+}
+.axlFoto{
+    grid-area: fotoaxl;
+}
+.axlTexto{
+    grid-area: textoaxl;
+}
+.slashTitulo{
+    grid-area: tituloslash;
+}
+.slashFoto{
+    grid-area: fotoslash;
+}
+.slashTexto{
+    grid-area: textoslash;
+}
+.duffTitulo{
+    grid-area: tituloduf;
+}
+.duffFoto{
+    grid-area: fotoduf;
+}
+.duffTexto{
+    grid-area: textoduf;
+}
+.izzyTitulo{
+    grid-area: tituloizi;
+}
+.izzyFoto{
+    grid-area: fotoizi;
+}
+.izzyTexto{
+    grid-area: textoizi;
+}
+.stevenTitulo{
+    grid-area: titulosteve;
+}
+.stevenFoto{
+    grid-area: fotosteve;
+}
+.stevenTexto{
+    grid-area: textosteve;
+}
+.footer{
+    grid-area: footer;
+}
+
+@media screen and (max-width: 768px ) {
+    .gridsIntegrantes{
+      
+        grid-template-columns: repeat(2, 1fr);
+        
+        grid-template-rows: 0.5fr 0.5fr repeat(10, 1fr) 0.5fr;
+
+        grid-template-areas: 
+        'titulo titulo'
+        'nav nav'
+        'tituloaxl tituloaxl'
+        'fotoaxl textoaxl'
+        'tituloslash tituloslash'
+        'textoslash fotoslash'
+        'tituloduf tituloduf'
+        'fotoduf textoduf'
+        'tituloizi tituloizi'
+        'textoizi fotoizi'
+        'titulosteve titulosteve'
+        'fotosteve textosteve'
+         'footer footer'
+        ;
+        justify-items: center;
+        
+        
+    }
+    .integrantesEncabezado{
+        grid-area: titulo;
+    }
+    .integrantesNaveg{
+        grid-area: nav;
+    }
+    .axlTitulo{
+        grid-area: tituloaxl;
+    }
+    .axlFoto{
+        grid-area: fotoaxl;
+    }
+    .axlTexto{
+        grid-area: textoaxl;
+    }
+    .slashTitulo{
+        grid-area: tituloslash;
+    }
+    .slashFoto{
+        grid-area: fotoslash;
+    }
+    .slashTexto{
+        grid-area: textoslash;
+    }
+    .duffTitulo{
+        grid-area: tituloduf;
+    }
+    .duffFoto{
+        grid-area: fotoduf;
+    }
+    .duffTexto{
+        grid-area: textoduf;
+    }
+    .izzyTitulo{
+        grid-area: tituloizi;
+    }
+    .izzyFoto{
+        grid-area: fotoizi;
+    }
+    .izzyTexto{
+        grid-area: textoizi;
+    }
+    .stevenTitulo{
+        grid-area: titulosteve;
+    }
+    .stevenFoto{
+        grid-area: fotosteve;
+    }
+    .stevenTexto{
+        grid-area: textosteve;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+   .gridsIntegrantes{
+       grid-template-columns: 1fr;
+       grid-template-rows: 0,5fr 0,5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0,5fr;
+       grid-area:
+       "titulo"
+       "nav"
+       "tituloaxl"
+       "fotoaxl"
+       "textoaxl"
+       "tituloslash"
+       "fotoslash"
+       "textoslash"
+       "tituloduf"
+       "fotoduf"
+       "textoduf"
+       "tituloizi"
+       "fotoizi"
+       "textoizi"
+       "titulosteve"
+       "fotosteve"
+       "textosteve"
+       "footer"
+
+       ;
+       justify-items: center
+   }
+
+.integrantesEncabezado{
+    grid-area: titulo;
+}
+.integrantesNaveg{
+    grid-area: nav;
+}
+.axlTitulo{
+    grid-area: tituloaxl;
+}
+.axlFoto{
+    grid-area: fotoaxl;
+}
+.axlTexto{
+    grid-area: textoaxl;
+}
+.slashTitulo{
+    grid-area: tituloslash;
+}
+.slashFoto{
+    grid-area: fotoslash;
+}
+.slashTexto{
+    grid-area: textoslash;
+}
+.duffTitulo{
+    grid-area: tituloduf;
+}
+.duffFoto{
+    grid-area: fotoduf;
+}
+.duffTexto{
+    grid-area: textoduf;
+}
+.izzyTitulo{
+    grid-area: tituloizi;
+}
+.izzyFoto{
+    grid-area: fotoizi;
+}
+.izzyTexto{
+    grid-area: textoizi;
+}
+.stevenTitulo{
+    grid-area: titulosteve;
+}
+.stevenFoto{
+    grid-area: fotosteve;
+}
+.stevenTexto{
+    grid-area: textosteve;
+}
+.footer{
+    grid-area: footer;
+}
+}
+
+/*grids historia*/
+
+.gridsHistoria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows:0,5fr o,5fr repeat(5, 1fr) 0,5fr ;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "nav nav nav"
+    "foto1 foto1 foto1"
+    "texto1 texto1 texto1"
+    "foto2 foto2 foto2"
+    "texto2 texto2 texto2"
+    "foto3 foto3 foto3"
+    "footer footer footer"
+    ;
+    justify-items: center;
+}
+.historiaEncabezado{
+    grid-area: titulo;
+    justify-self: stretch;
+}
+.historiaNaveg{
+    grid-area: nav;
+}
+.historiaImg{
+    grid-area: foto1;
+    justify-self: center;
+}
+.parrafoMain1{
+    grid-area: texto1;
+}
+.imagen1{
+    grid-area: foto2;
+    justify-self: center;
+}
+.parrafoMain2{
+    grid-area: texto2;
+}
+.imagen2{
+    grid-area: foto3;
+    justify-self: center;
+}
+.footer{
+    grid-area: footer;
+}
