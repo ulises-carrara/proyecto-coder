@@ -13,7 +13,7 @@ html{
     background-color: yellow;
 }
 
-.titulo{
+.encabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -46,12 +46,12 @@ html{
    
    background-color: black;
 }
-.imagen1{
+.imagenIndex{
     margin: 30px;
 }
 .principal{
 
-    background-color: red;
+    background-color: none;
     font-size: 30px;
     font-family:Syne Mono;
 }
@@ -92,7 +92,7 @@ body{
     background-color: yellow;
 }
 
- .integrantesTitulo{
+ .integrantesEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -230,7 +230,7 @@ body{
     background-color: yellow;
 }
 
-.historiaTitulo{
+.historiaEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -290,7 +290,7 @@ body{
     background-color: yellow;
 }
 
-.discografiaTitulo{
+.discografiaEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -332,7 +332,7 @@ body{
 .contactoEncabezado{
     background-color: yellow;
 }
-.contactoTitulo{
+.contactoEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -501,7 +501,7 @@ body{
 .gridsIntegrantes{
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 0.5fr 0.5fr repeat(15, 1fr) 0.5fr ;
+    grid-template-rows: 0,5fr 0,5fr repeat(15, 1fr) 0,5fr ;
     grid-template-areas: 
     "titulo titulo titulo"
     "nav nav nav"
@@ -581,7 +581,7 @@ body{
 .footer{
     grid-area: footer;
 }
-
+/*
 @media screen and (max-width: 768px ) {
     .gridsIntegrantes{
       
@@ -747,7 +747,7 @@ body{
 .footer{
     grid-area: footer;
 }
-}
+}*/
 
 /*grids historia*/
 
@@ -794,4 +794,115 @@ body{
 }
 .footer{
     grid-area: footer;
+}
+
+
+.gridsIndex{
+    background: radial-gradient(yellow, red);
+}
+.axl{
+    background: linear-gradient(yellow, red);
+}
+.slash{
+    background: linear-gradient(red, yellow);
+}
+.duff{
+    background: linear-gradient(yellow, red);
+}
+.izzy{
+    background: linear-gradient(red, yellow);
+}
+.steven{
+    background: linear-gradient(yellow, red);
+}
+.gridsHistoria{
+    background: radial-gradient(rgb(199, 89, 89), rgb(255, 0, 0));
+}
+.marco{
+    background: linear-gradient(yellow, red);
+}
+.imagen2{
+    transform: translate(500px) scale(1);
+  
+}
+.historiaImg{
+    height: 200px;
+    transition: all 1s;
+}
+.historiaImg:hover{
+    height: 300px;
+   
+}
+.imagen1{
+    height: 200px;
+    transition: all 1s;
+}
+.imagen1:hover{
+    height: 300px;
+    transform: rotate(360deg);
+    margin: 25px;
+}
+.imagen2{
+    height: 200px;
+    transition: all 1s;
+}
+.imagen2:hover{
+    height: 300px;
+    margin: 25px;
+    
+}
+.imagenIndex{
+    height: 800px;
+}
+.inputNombre{
+    width: 150px;
+    transition: all 1s;
+}
+.inputNombre:focus{
+    width: 250px;
+    font-size: 25px;
+}
+.inputCorreo{
+    width: 150px;
+    transition: all 1s;
+}
+.inputCorreo:focus{
+    width: 250px;
+    font-size: 25px;
+}
+.inputTel{
+    width: 150px;
+    transition: all 1s;
+}
+.inputTel:focus{
+    width: 250px;
+    font-size: 25px;
+}
+@keyframes alerta{
+    0%{
+        color: black;
+    }
+    25%{
+        color: yellow;
+        font-size: 25px;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: black;
+        font-size: 25px;
+    }
+    100%{
+        color: yellow;
+    }
+}
+.contactoTexto{
+    animation-name: alerta;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.animate__animated.animate__flash{
+    animation-iteration-count: infinite;
 }
