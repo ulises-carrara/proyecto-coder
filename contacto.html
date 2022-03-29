@@ -9,13 +9,20 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Syne+Mono&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
 
 </head>
-<body>
+<body class="bodyContacto">
+
  <header class="contactoEncabezado">
-      <h1 class="contactoTitulo">Registrate</h1>
+      <h1 class="animate__animated animate__flash">Registrate</h1>
 </header>
 
 <nav class="contactoNaveg">
@@ -47,17 +54,17 @@
     
         <div>
          <label for="Nombre"> Ingrese su nombre</label>
-         <input type="text"  value="" name="Nombre" placeholder="Nombre">
+         <input class="inputNombre" type="text"  value="" name="Nombre" placeholder="Nombre">
         </div>  
         
         <div>
          <label for="Correo"> Ingrese su correo</label>
-         <input type="email" name="Correo" id="" value="" placeholder="Correo">
+         <input class="inputCorreo" type="email" name="Correo" id="" value="" placeholder="Correo">
         </div>
 
         <div>
           <label for="num_telefono">Ingrese su numero de telefono</label>
-          <input type="text" name="num_telefono" id="" placeholder="Telefono">
+          <input class="inputTel" type="text" name="num_telefono" id="" placeholder="Telefono">
         </div>
 
 
@@ -83,7 +90,7 @@
         </div>
    
         <div>
-         <textarea name="" id="" cols="30" rows="10"> Dejanos tu opinin</textarea>
+         <textarea  name="" id="" cols="30" rows="10"> Dejanos tu opinin</textarea>
         </div>
 
         <div>

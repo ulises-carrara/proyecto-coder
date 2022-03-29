@@ -13,7 +13,7 @@ html{
     background-color: yellow;
 }
 
-.titulo{
+.encabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -46,12 +46,12 @@ html{
    
    background-color: black;
 }
-.imagen1{
+.imagenIndex{
     margin: 30px;
 }
 .principal{
 
-    background-color: red;
+    background-color: none;
     font-size: 30px;
     font-family:Syne Mono;
 }
@@ -92,7 +92,7 @@ body{
     background-color: yellow;
 }
 
- .integrantesTitulo{
+ .integrantesEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -230,7 +230,7 @@ body{
     background-color: yellow;
 }
 
-.historiaTitulo{
+.historiaEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -290,7 +290,7 @@ body{
     background-color: yellow;
 }
 
-.discografiaTitulo{
+.discografiaEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -332,7 +332,7 @@ body{
 .contactoEncabezado{
     background-color: yellow;
 }
-.contactoTitulo{
+.contactoEncabezado h1{
     font-size: 50px;
     font-family:Syne Mono;
     text-align: center;
@@ -501,7 +501,7 @@ body{
 .gridsIntegrantes{
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 0.5fr 0.5fr repeat(15, 1fr) 0.5fr ;
+    grid-template-rows: 0,5fr 0,5fr repeat(15, 1fr) 0,5fr ;
     grid-template-areas: 
     "titulo titulo titulo"
     "nav nav nav"
@@ -581,7 +581,7 @@ body{
 .footer{
     grid-area: footer;
 }
-
+/*
 @media screen and (max-width: 768px ) {
     .gridsIntegrantes{
       
@@ -747,7 +747,7 @@ body{
 .footer{
     grid-area: footer;
 }
-}
+}*/
 
 /*grids historia*/
 
