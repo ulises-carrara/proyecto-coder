@@ -1,75 +1,82 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
-    font-size: 62,5%; 
-   
+html {
+    font-size: 62, 5%;
+
 }
+
 /*CSS INDEX*/
 
-.encabezado{
+.encabezado {
     background-color: yellow;
 }
 
-.encabezado h1{
+.encabezado h1 {
     font-size: 50px;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
     text-align: center;
     text-decoration: underline red;
 }
-.navegacion{
-     border: 2px black solid;
-     background-color: red;
-       position: sticky;
-       top: 0px;
- 
+
+.navegacion {
+    border: 2px black solid;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    
 }
-.menu li{
-   
+
+.menu li {
+
     font-size: 20px;
     padding: 10px 20px;
     display: inline-block;
 }
-.menu li a{
-    font-family:Syne Mono ;
+
+.menu li a {
+    font-family: Syne Mono;
     color: black;
     text-decoration: overline underline;
 
 }
-.menu li:hover{
-   background-color: yellow;
+
+.menu li:hover {
+    background-color: yellow;
 }
 
+
 .seccion1{
-   
-   background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-.imagenIndex{
-    margin: 30px;
-}
-.principal{
+.principal {
 
     background-color: none;
     font-size: 30px;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
 }
 
-.footer{
+.footer {
     display: inline-block;
-   
-    bottom:0px;
+
+    bottom: 0px;
     background-color: black;
     padding: 5px 10px;
     border: 3px yellow solid;
-   
+
 }
-.footer__titulo{
+
+.footer__titulo {
     color: red;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
 }
-.footer a{
+
+.footer a {
     display: inline-block;
     background-color: red;
     color: black;
@@ -78,310 +85,361 @@ html{
     padding: 10px 20px;
 
 }
-.footer a:hover{
+
+.footer a:hover {
     background-color: yellow;
 }
-body{
+
+body {
     background-color: red;
 }
 
 
 /*INTEGRANTES*/
 
-.integrantesEncabezado{
+.integrantesEncabezado {
     background-color: yellow;
 }
 
- .integrantesEncabezado h1{
+.integrantesEncabezado h1 {
     font-size: 50px;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
     text-align: center;
     text-decoration: underline red;
- }
+} 
 
-.integrantesNaveg{
+.integrantesNaveg {
     border: 2px black solid;
     background-color: red;
-      position: sticky;
-      top: 0px;
+    position: sticky;
+    top: 0px;
 
 }
 
-.integrantesMenu li{
+.integrantesMenu li {
     font-size: 20px;
     padding: 10px 20px;
     display: inline-block;
 }
 
-.integrantesMenu li:hover{
+.integrantesMenu li:hover {
     background-color: yellow;
 
 }
 
-.integrantesMenu li a{
-    font-family:Syne Mono ;
+.integrantesMenu li a {
+    font-family: Syne Mono;
     color: black;
     text-decoration: overline underline;
 }
 
-.integrantesMain{
-    background-color: red;
+.integrantesMain {
+    background-color: black;
+
 }
+
 /*AXL*/
-.axl{
+.axl {
     background-color: yellow;
 }
-.axlTitulo{
-    font-family:Syne Mono;
+
+.axlTitulo {
+    font-family: Syne Mono;
     text-align: center;
-   text-decoration: underline red ;
-   font-size: 25px;
-}
-
-.axlFoto{
-    margin: 0px 550px;
-}
-
-.axlTexto{
-    font-family:Syne Mono;
-    font-size: 20px;
-    text-align: center;
-}
-/*SLASH*/
-.slashTitulo{
-    font-family:Syne Mono;
-    text-align: center;
-   text-decoration: underline rgb(255, 225, 0) ;
-   font-size: 25px;
-}
-
-.slashFoto{
-    margin: 0px 550px;
-}
-
-.slashTexto{
-    font-family:Syne Mono;
-    font-size: 20px;
-    text-align: center;
-}
-/*DUFF*/
-.duff{
-    background-color:yellow;
-}
-
-.duffTitulo{
-    font-family:Syne Mono;
-     text-align: center;
     text-decoration: underline red;
     font-size: 25px;
 }
 
-.duffFoto{
-    margin: 0px 550px;
+.axlFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.duffTexto{
-    font-family:Syne Mono;
+.contAxl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.axlTexto {
+    font-family: Syne Mono;
     font-size: 20px;
     text-align: center;
 }
-/*IZZY*/
-.izzyTitulo{
-    font-family:Syne Mono;
+
+/*SLASH*/
+.slashTitulo {
+    font-family: Syne Mono;
     text-align: center;
-   text-decoration: underline rgb(255, 225, 0) ;
-   font-size: 25px;
+    text-decoration: underline rgb(255, 225, 0);
+    font-size: 25px;
 }
 
-.izzyFoto{
-    margin: 0px 550px;
+.slashFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 
-.izzyTexto{
-    font-family:Syne Mono;
+.contSlash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slashTexto {
+    font-family: Syne Mono;
     font-size: 20px;
     text-align: center;
 }
-/*STEVEN*/
-.steven{
+
+/*DUFF*/
+.duff {
     background-color: yellow;
 }
-.stevenTitulo{
-    font-family:Syne Mono;
+
+.duffTitulo {
+    font-family: Syne Mono;
     text-align: center;
-   text-decoration: underline red ;
-   font-size: 25px;
+    text-decoration: underline red;
+    font-size: 25px;
 }
 
-.stevenFoto{
-
-    margin: 0px 550px;
+.duffFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.stevenTexto{
-    font-family:Syne Mono;
+.contDuff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duffTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*IZZY*/
+.izzyTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline rgb(255, 225, 0);
+    font-size: 25px;
+}
+
+.izzyFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contIzzi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.izzyTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*STEVEN*/
+.steven {
+    background-color: yellow;
+}
+
+.stevenTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+    font-size: 25px;
+}
+
+.stevenFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contSteve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stevenTexto {
+    font-family: Syne Mono;
     font-size: 20px;
     text-align: center;
 }
 
 /*HISTORIA*/
 
-.historiaEncabezado{
+.historiaEncabezado {
     background-color: yellow;
 }
 
-.historiaEncabezado h1{
+.historiaEncabezado h1 {
     font-size: 50px;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
     text-align: center;
     text-decoration: underline red;
 }
 
-.historiaNaveg{
+.historiaNaveg {
     border: 2px black solid;
     background-color: red;
-      position: sticky;
-      top: 0px;
+    position: sticky;
+    top: 0px;
 }
 
-.historiaMenu li{
+.historiaMenu li {
     font-size: 20px;
     padding: 10px 20px;
     display: inline-block;
 }
 
-.historiaMenu li:hover{
+.historiaMenu li:hover {
     background-color: yellow;
 
 }
 
-.historiaMenu li a{
-    font-family:Syne Mono ;
+.historiaMenu li a {
+    font-family: Syne Mono;
     color: black;
     text-decoration: overline underline;
 }
 
 
-.historiaMain{
+.historiaMain {
     background-image: url(https://i.pinimg.com/originals/2d/60/87/2d60872b171cc9c73d7d903c89150ce6.png);
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     background-size: contain;
 }
 
-.parrafoMain1{
-    font-family:Syne Mono;
-    color:yellow;
+.parrafoMain1 {
+    font-family: Syne Mono;
+    color: yellow;
     text-align: center;
 }
-    
-.parrafoMain2{
-    font-family:Syne Mono;
+
+.parrafoMain2 {
+    font-family: Syne Mono;
     color: yellow;
 }
 
-.historiaImg{
+.historiaImg {
     margin: 0px 500px;
 }
 
 /*DISCOGRAFIA*/
 
-.discografiaEncabezado{
+.discografiaEncabezado {
     background-color: yellow;
 }
 
-.discografiaEncabezado h1{
+.discografiaEncabezado h1 {
     font-size: 50px;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
     text-align: center;
     text-decoration: underline red;
 }
 
-.discografiaNaveg{
+.discografiaNaveg {
     border: 2px black solid;
     background-color: red;
-      position: sticky;
-      top: 0px;
+    position: sticky;
+    top: 0px;
 }
 
-.discografiaMenu li{
+.discografiaMenu li {
     font-size: 20px;
     padding: 10px 20px;
     display: inline-block;
 }
 
-.discografiaMenu li:hover{
+.discografiaMenu li:hover {
     background-color: yellow;
 }
 
-.discografiaMenu li a{
-    font-family:Syne Mono ;
+.discografiaMenu li a {
+    font-family: Syne Mono;
     color: black;
     text-decoration: overline underline;
 }
 
-.titulo1{
-    font-family:Syne Mono;
+.titulo1 {
+    font-family: Syne Mono;
     text-align: center;
-   text-decoration: underline black ;
-   font-size: 25px;
+    text-decoration: underline black;
+    font-size: 25px;
 }
 
 /*CONTACTO*/
 
-.contactoEncabezado{
+.contactoEncabezado {
     background-color: yellow;
 }
-.contactoEncabezado h1{
+
+.contactoEncabezado h1 {
     font-size: 50px;
-    font-family:Syne Mono;
+    font-family: Syne Mono;
     text-align: center;
     text-decoration: underline red;
 }
 
-.contactoNaveg{
+.contactoNaveg {
     border: 2px black solid;
     background-color: red;
-      position: sticky;
-      top: 0px;
+    position: sticky;
+    top: 0px;
 }
 
-.contactoMenu li{
+.contactoMenu li {
     font-size: 20px;
     padding: 10px 20px;
     display: inline-block;
 }
 
-.contactoMenu li:hover{
+.contactoMenu li:hover {
     background-color: yellow;
 }
 
-.contactoMenu li a{
-    font-family:Syne Mono ;
+.contactoMenu li a {
+    font-family: Syne Mono;
     color: black;
     text-decoration: overline underline;
 }
 
-.contactoTexto{
-    font-family:Syne Mono;
+.contactoTexto {
+    font-family: Syne Mono;
     text-align: center;
     text-decoration: underline yellow;
     font-size: 20px;
 }
 
-.legend{
-    font-family:Syne Mono;
-    text-decoration:  underline red;
+.legend {
+    font-family: Syne Mono;
+    text-decoration: underline red;
     font-size: 25px;
-   
+
 }
 
-.marco{
+.marco {
     background-color: yellow;
     border-color: black;
 }
 
-/*grids index*/
+/*grids index
 
 .gridsIndex{
 
@@ -396,7 +454,7 @@ body{
     "img img img "
     "footer . . "
     ;
-   /* grid-row-gap: 10px;*/
+   /* grid-row-gap: 10px;
   justify-items: center;
 }
 
@@ -418,8 +476,8 @@ body{
 .footer{
     grid-area: footer;
 }/*4:20 ;)*/
-
-@media screen and (max-width: 768px) { /*TABLET*/
+/*
+@media screen and (max-width: 768px) { /*TABLET
 
     .gridsIndex{
         grid-template-columns: repeat(3,1fr);
@@ -456,7 +514,7 @@ body{
     
 }
 
-@media screen and (max-width: 425px){ /*mobil*/
+@media screen and (max-width: 425px){ /*mobil
    .gridsIndex{
        grid-template-columns: 1fr;
       grid-template-areas: 
@@ -494,9 +552,9 @@ body{
     grid-area: footer;
 }
 
-}
+}*/
 
-/*grids integrantes*/
+/*grids integrantes
 
 .gridsIntegrantes{
     display: grid;
@@ -751,156 +809,202 @@ body{
 
 /*grids historia*/
 
-.gridsHistoria{
+.gridsHistoria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows:0,5fr o,5fr repeat(5, 1fr) 0,5fr ;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "nav nav nav"
-    "foto1 foto1 foto1"
-    "texto1 texto1 texto1"
-    "foto2 foto2 foto2"
-    "texto2 texto2 texto2"
-    "foto3 foto3 foto3"
-    "footer footer footer"
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0, 5fr o, 5fr repeat(5, 1fr) 0, 5fr;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "nav nav nav"
+        "foto1 foto1 foto1"
+        "texto1 texto1 texto1"
+        "foto2 foto2 foto2"
+        "texto2 texto2 texto2"
+        "foto3 foto3 foto3"
+        "footer footer footer"
     ;
     justify-items: center;
 }
-.historiaEncabezado{
+
+.historiaEncabezado {
     grid-area: titulo;
     justify-self: stretch;
 }
-.historiaNaveg{
+
+.historiaNaveg {
     grid-area: nav;
 }
-.historiaImg{
+
+.historiaImg {
     grid-area: foto1;
     justify-self: center;
 }
-.parrafoMain1{
+
+.parrafoMain1 {
     grid-area: texto1;
 }
-.imagen1{
+
+.imagen1 {
     grid-area: foto2;
     justify-self: center;
 }
-.parrafoMain2{
+
+.parrafoMain2 {
     grid-area: texto2;
 }
-.imagen2{
+
+.imagen2 {
     grid-area: foto3;
     justify-self: center;
 }
-.footer{
+
+.footer {
     grid-area: footer;
 }
-.gridsIndex{
+
+.gridsIndex {
     background: radial-gradient(yellow, red);
 }
-.axl{
+
+.axl {
     background: linear-gradient(yellow, red);
 }
-.slash{
+
+.slash {
     background: linear-gradient(red, yellow);
 }
-.duff{
+
+.duff {
     background: linear-gradient(yellow, red);
 }
-.izzy{
+
+.izzy {
     background: linear-gradient(red, yellow);
 }
-.steven{
+
+.steven {
     background: linear-gradient(yellow, red);
 }
-.gridsHistoria{
+
+.gridsHistoria {
     background: radial-gradient(rgb(199, 89, 89), rgb(255, 0, 0));
 }
-.marco{
+
+.marco {
     background: linear-gradient(yellow, red);
 }
-.imagen2{
+
+.imagen2 {
     transform: translate(500px) scale(1);
-  
+
 }
-.historiaImg{
+
+.historiaImg {
     height: 200px;
     transition: all 1s;
 }
-.historiaImg:hover{
+
+.historiaImg:hover {
     height: 300px;
-   
+
 }
-.imagen1{
+
+.imagen1 {
     height: 200px;
     transition: all 1s;
 }
-.imagen1:hover{
+
+.imagen1:hover {
     height: 300px;
     transform: rotate(360deg);
     margin: 25px;
 }
-.imagen2{
+
+.imagen2 {
     height: 200px;
     transition: all 1s;
 }
-.imagen2:hover{
+
+.imagen2:hover {
     height: 300px;
     margin: 25px;
-    
+
 }
-.imagenIndex{
+
+.imagenIndex {
     height: 800px;
 }
-.inputNombre{
+
+.imgPrueba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 30px;
+    
+}
+
+.inputNombre {
     width: 150px;
     transition: all 1s;
 }
-.inputNombre:focus{
+
+.inputNombre:focus {
     width: 250px;
     font-size: 25px;
 }
-.inputCorreo{
+
+.inputCorreo {
     width: 150px;
     transition: all 1s;
 }
-.inputCorreo:focus{
+
+.inputCorreo:focus {
     width: 250px;
     font-size: 25px;
 }
-.inputTel{
+
+.inputTel {
     width: 150px;
     transition: all 1s;
 }
-.inputTel:focus{
+
+.inputTel:focus {
     width: 250px;
     font-size: 25px;
 }
-@keyframes alerta{
-    0%{
+
+@keyframes alerta {
+    0% {
         color: black;
     }
-    25%{
+
+    25% {
         color: yellow;
         font-size: 25px;
     }
-    50%{
+
+    50% {
         color: white;
     }
-    75%{
+
+    75% {
         color: black;
         font-size: 25px;
     }
-    100%{
+
+    100% {
         color: yellow;
     }
 }
-.contactoTexto{
+
+.contactoTexto {
     animation-name: alerta;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-.animate__animated.animate__flash{
+
+.animate__animated.animate__flash {
     animation-iteration-count: infinite;
 }

@@ -1,112 +1,221 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="estilos/estilos.css">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Syne+Mono&display=swap" rel="stylesheet">
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrantes</title>
 
 
-    <title>Integrantes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Syne+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="estilos/estilos.css">
+
 </head>
-<body class="gridsIntegrantes">
 
-    <header class="integrantesEncabezado">
+<body class="gridsIntegrantes container-fluid">
+
+
+  <div class="row">
+    <div class="col-12">
+      <header class="integrantesEncabezado">
         <h1 class="animate__animated animate__backInLeft">Integrantes</h1>
-    </header>
-    
-    <nav class="integrantesNaveg">
-        <ul class="integrantesMenu">
-            <li><a href="index.html">Inicio</a> </li>
-            <li><a href="discografia.html">Discografia</a></li>         
-            <li><a href="historia.html">Historia</a></li>
-            <li><a href="contacto.html">Contacto</a> </li>
+      </header>
+    </div>
+  </div>
+
+  
+   
+      <nav class="integrantesNaveg">
+        <ul class="integrantesMenu text-center">
+          <li><a href="index.html">Inicio</a> </li>
+          <li><a href="discografia.html">Discografia</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="contacto.html">Contacto</a> </li>
         </ul>
-        
-    </nav>
+
+      </nav>
     
-    <main class="integrantesMain">
-         <section class="axl">
-             <div class="axlTitulo">Axl Roses</div>
 
-          <img class="axlFoto" src="imagenes/axl.jfif" alt="Axl Roses vocalista">
 
-          <p class="axlTexto">
+
+  <main class="integrantesMain container-fluid">
+
+    <div class="row">
+
+      <section class="axl">
+        <div class="col-12">
+          <div class="axlTitulo">Axl Roses</div>
+        </div>
+
+        <div class="row">
+        <div class="axlFoto col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <img  src="imagenes/axl.jfif" alt="Axl Roses vocalista">
+        </div>
+
+        <div class="contAxl col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <p class="axlTexto text-center lead">
             William Bruce Rose Jr. (Lafayette, Indiana, 6 de febrero de 1962),
-             más conocido por su nombre artístico Axl Rose, músico, cantante, compositor, pianista y
-             vocalista princupal de la banda de hard rock Guns N´ Roses.
-           </p>
-          
-         </section>
-        
-         <section class="slash">
+            más conocido por su nombre artístico Axl Rose, músico, cantante, compositor, pianista y
+            vocalista princupal de la banda de hard rock Guns N´ Roses.
+          </p>
+        </div>
+    </div>
+    </section>
 
-             <div class="slashTitulo">slash</div>
-          <img class="slashFoto" src="imagenes/slash.jpg" alt="Slash guitarrista principal">       
-          
-            <p class="slashTexto">
-                 Saul Hudson (Hampstead, Londres; 23 de julio de 1965), más conocido por su nombre artístico Slash,
-                  el guitarrista principal de la banda de hard rock Guns N' Roses
+    </div>
+
+
+    <div class="row">
+
+      <section class="slash">
+        <div class="col-12">
+          <div class="slashTitulo">slash</div>
+        </div>
+        <div class="row">
+
+          <div class="contSlash col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <p class="slashTexto text-center lead">
+              Saul Hudson (Hampstead, Londres; 23 de julio de 1965), más conocido por su nombre artístico Slash,
+              el guitarrista principal de la banda de hard rock Guns N' Roses
 
 
             </p>
-         </section>
+          </div>
 
+          <div class="slashFoto col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img  src="imagenes/slash.jpg" alt="Slash guitarrista principal">
+          </div>
 
-         <section class="duff">
-             <div class="duffTitulo">Duff McKagan</div>   
-             <img class="duffFoto" src="imagenes/duff.jpg" alt="Duff bajista">
+        </div>
+      </section>
 
-             <p class="duffTexto">
-                Michael Andrew "Duff" McKagan (Seattle, Washington, Estados Unidos; 5 de febrero de 1964),
-                 compositor, productor discográfico, bajista y segundo vocalista de la banda de hard rock Guns N' Roses y guitarrista de Loaded. 
-             </p>
-          </section>
+    </div>
 
-          <section class="izzy">
-            <div class="izzyTitulo">Izzy Stradlin</div>
-            <img class="izzyFoto" src="imagenes/izzy.jfif" alt="Izzy segundo guitarrista">
+    <div class="row">
 
-            <p class="izzyTexto">
-                Izzy Stradlin (Lafayette, Indiana, 8 de abril de 1962) cuyo verdadero nombre es Jeffrey Dean lsbell,
-                  guitarrista rítmico, compositor principal y uno de los miembros fundadores de la banda de hard rock Guns N' Roses,
-                  la cual abandonó en la cima de su fama en 1991 habiendo grabado cuatro álbumes de estudio.
+      <section class="duff">
+        <div class="col-12">
+          <div class="duffTitulo">Duff McKagan</div>
+        </div>
+
+        <div class="row">
+
+          <div class="duffFoto col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img  src="imagenes/duff.jpg" alt="Duff bajista">
+          </div>
+
+          <div class="contDuff col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <p class="duffTexto lead text-center">
+              Michael Andrew "Duff" McKagan (Seattle, Washington, Estados Unidos; 5 de febrero de 1964),
+              compositor, productor discográfico, bajista y segundo vocalista de la banda de hard rock Guns N' Roses y
+              guitarrista de Loaded.
             </p>
-          </section>
+          </div>
 
-          <section class="steven">
-            <div class="stevenTitulo">Steven Adler </div>
-            <img class="stevenFoto" src="imagenes/steven.jfif" alt="steven baterista">
-            <p class="stevenTexto">
-                
-                Steven Adler (Michael Coletti Cleveland, Ohio, 22 de enero de 1965) , conocido especialmente por su trabajo como baterista con la popular agrupación estadounidense Guns N' Roses.
-                 Con dicha banda grabó el álbum Appetite for Destruction, uno de los discos más vendidos de la historia (33 millones de copias) 
+        </div>
+      </section>
+
+    </div>
+
+    <div class="row">
+
+      <section class="izzy">
+        <div class="col-12">
+          <div class="izzyTitulo">Izzy Stradlin</div>
+        </div>
+
+        <div class="row">
+
+          <div class="contIzzi col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <p class="izzyTexto lead text-center">
+             
+              Izzy Stradlin (Lafayette, Indiana, 8 de abril de 1962) cuyo verdadero nombre es Jeffrey Dean lsbell,
+              guitarrista rítmico, compositor principal y uno de los miembros fundadores de la banda de hard rock Guns
+              N'
+              Roses,
+              la cual abandonó en la cima de su fama en 1991 habiendo grabado cuatro álbumes de estudio.
+            </p>
+          </div>
+
+
+          <div class="izzyFoto col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img src="imagenes/izzy.jfif" alt="Izzy segundo guitarrista">
+          </div>
+
+
+        </div>
+      </section>
+    </div>
+
+    <div class="row">
+
+      <section class="steven">
+        <div class="col-12">
+          <div class="stevenTitulo">Steven Adler </div>
+        </div>
+        <div class="row">
+          <div class="stevenFoto col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <img src="imagenes/steven.jfif" alt="steven baterista">
+          </div>
+
+          <div class="contSteve col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <p class="stevenTexto lead text-center">
+
+              Steven Adler (Michael Coletti Cleveland, Ohio, 22 de enero de 1965) , conocido especialmente por su
+              trabajo
+              como
+              baterista con la popular agrupación estadounidense Guns N' Roses.
+              Con dicha banda grabó el álbum Appetite for Destruction, uno de los discos más vendidos de la historia
+              (33
+              millones de copias)
 
             </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    </div>
+  </main>
 
-          </section>
-    </main>
+
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+      <footer class="footer">
+        <legend class="footer__titulo">Redes Sociales</legend>
+        <a href="https://es-la.facebook.com/gunsnroses">Facebook</a>
+        <a href="https://www.instagram.com/gunsnroses/">Instagram</a>
+        <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twiter</a>
+      </footer>
+    </div>
+  </div>
 
 
 
 
-<footer class="footer">    
-    <legend class="footer__titulo">Redes Sociales</legend>
- <a href="https://es-la.facebook.com/gunsnroses">Facebook</a> 
- <a href="https://www.instagram.com/gunsnroses/">Instagram</a>
- <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twiter</a>
-</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+
 
 </body>
+
 </html>
