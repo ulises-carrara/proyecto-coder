@@ -26,9 +26,8 @@ html {
     background-color: red;
     position: sticky;
     top: 0px;
-    
+    margin: 0px 200px;
 }
-
 .menu li {
 
     font-size: 20px;
@@ -107,14 +106,6 @@ body {
     text-align: center;
     text-decoration: underline red;
 } 
-
-.integrantesNaveg {
-    border: 2px black solid;
-    background-color: red;
-    position: sticky;
-    top: 0px;
-
-}
 
 .integrantesMenu li {
     font-size: 20px;
@@ -294,12 +285,6 @@ body {
     text-decoration: underline red;
 }
 
-.historiaNaveg {
-    border: 2px black solid;
-    background-color: red;
-    position: sticky;
-    top: 0px;
-}
 
 .historiaMenu li {
     font-size: 20px;
@@ -327,9 +312,12 @@ body {
 }
 
 .parrafoMain1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Syne Mono;
     color: yellow;
-    text-align: center;
+    
 }
 
 .parrafoMain2 {
@@ -338,7 +326,9 @@ body {
 }
 
 .historiaImg {
-    margin: 0px 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*DISCOGRAFIA*/
@@ -384,6 +374,17 @@ body {
     font-size: 25px;
 }
 
+.Appetite{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.lies{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
 /*CONTACTO*/
 
 .contactoEncabezado {
@@ -807,7 +808,7 @@ body {
 }
 }*/
 
-/*grids historia*/
+/*grids historia
 
 .gridsHistoria {
     display: grid;
@@ -860,7 +861,7 @@ body {
 
 .footer {
     grid-area: footer;
-}
+}*/
 
 .gridsIndex {
     background: radial-gradient(yellow, red);
@@ -895,23 +896,19 @@ body {
 }
 
 .imagen2 {
-    transform: translate(500px) scale(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.historiaImg {
-    height: 200px;
-    transition: all 1s;
-}
 
-.historiaImg:hover {
-    height: 300px;
-
-}
 
 .imagen1 {
-    height: 200px;
-    transition: all 1s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen1:hover {
@@ -921,8 +918,11 @@ body {
 }
 
 .imagen2 {
-    height: 200px;
+   
     transition: all 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen2:hover {
@@ -944,7 +944,7 @@ body {
     
 }
 
-.inputNombre {
+.inputNombre{
     width: 150px;
     transition: all 1s;
 }
@@ -1002,9 +1002,63 @@ body {
     animation-name: alerta;
     animation-duration: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+   
 }
 
-.animate__animated.animate__flash {
-    animation-iteration-count: infinite;
+
+
+.illusion{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.illusion2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Incident{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Democracy{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+imagen2{
+    transform: translate(500px) scale(1);
+  
+}
+.historiaImg{
+    height: 200px;
+    transition: all 1s;
+}
+.historiaImg:hover{
+    height: 300px;
+   
+}
+.imagen1{
+    height: 200px;
+    transition: all 1s;
+}
+.imagen1:hover{
+    height: 300px;
+    transform: rotate(360deg);
+    margin: 25px;
+}
+.imagen2{
+    height: 200px;
+    transition: all 1s;
+}
+.imagen2:hover{
+    height: 300px;
+    margin: 25px;
 }
