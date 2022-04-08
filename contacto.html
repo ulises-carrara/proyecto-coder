@@ -1,126 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
 
-    <link rel="stylesheet" href="estilos/estilos.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Syne+Mono&display=swap" rel="stylesheet">
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&family=Syne+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="estilos/estilos.css">
 
 
 </head>
-<body class="bodyContacto">
 
- <header class="contactoEncabezado">
-      <h1 class="animate__animated animate__flash">Registrate</h1>
-</header>
+<body class="container-fluid">
 
-<nav class="contactoNaveg">
 
-    <ul class="contactoMenu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="integrantes.html">Integrantes</a> </li>
-        <li><a href="discografia.html">Discografia</a></li>         
-        <li><a href="historia.html">Historia</a></li>
+  <div class="row">
+    <div class="col-12">
+      <header class="contactoEncabezado">
+        <h1 class="animate__animated animate__flash">Registrate</h1>
+      </header>
+    </div>
+  </div>
+
+
+  <nav class="navegacion">
+
+    <ul class="menu text-center">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="integrantes.html">Integrantes</a> </li>
+      <li><a href="discografia.html">Discografia</a></li>
+      <li><a href="historia.html">Historia</a></li>
     </ul>
-    
-</nav>
 
-    <section>     
-     <p class="contactoTexto">
-    Registrate con tus datos para que puedas enterarte de todo lo nuevo
-    noticia, giras, etc
-    </p>
-    </section>
-   
+  </nav>
+
+  <div class="row">
+    <div class="col-12">
+      <section>
+        <p class="contactoTexto lead">
+          Registrate con tus datos para que puedas enterarte de todo lo nuevo
+          noticia, giras, etc
+        </p>
+      </section>
+    </div>
+  </div>
 
   <main>
-<form action="">   
-  
-    
-   <fieldset class="marco">
-     
-       <legend class="legend">Datos</legend>
-    
-        <div>
-         <label for="Nombre"> Ingrese su nombre</label>
-         <input class="inputNombre" type="text"  value="" name="Nombre" placeholder="Nombre">
-        </div>  
-        
-        <div>
-         <label for="Correo"> Ingrese su correo</label>
-         <input class="inputCorreo" type="email" name="Correo" id="" value="" placeholder="Correo">
+
+    <div class="row">
+      <form action="">
+
+        <div class="row">
+          <fieldset class="marco">
+
+
+            <div class="row">
+              <div class="col-4">
+                <legend class="legend text-center">Datos</legend>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class=" col-sm-12 col-md-8 col-lg-5 col-xl-5">
+
+
+                <div class="input-group">
+                  <input type="text" class="form-control inputNombre" placeholder="Nombre" aria-label="Username"
+                    aria-describedby="input-group-right">
+                  <span class="input-group-text" id="input-group-right-example">Ingrese su nombre</span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+
+
+                <div class="form-floating mb-3 ">
+                  <input type="email" class="form-control " id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Ingrese su correo</label>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+
+
+                <div class="input-group">
+                  <input type="text" class="form-control inputTel" placeholder="telefono" aria-label="Username"
+                    aria-describedby="input-group-right">
+                  <span class="input-group-text" id="input-group-right-example">Ingrese su telefono</span>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+                <div class="text-center">
+                  <div>Indique su sexo</div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                     Masculino
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                     Femenino
+                    </label>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+                <div class="text-center">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Acepta terminos y condiciones</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+                <div class="text-center">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Acepta que le enviemos Mail</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+                <div class="text-center">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Dejanos tu opinion</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+                <div class="text-center">
+                  <button type="button" class="btn btn-outline-success">Enviar</button>
+                  <button type="button" class="btn btn-outline-warning">Borrar</button>
+                </div>
+              </div>
+            </div>
+
+          </fieldset>
         </div>
 
-        <div>
-          <label for="num_telefono">Ingrese su numero de telefono</label>
-          <input class="inputTel" type="text" name="num_telefono" id="" placeholder="Telefono">
-        </div>
-
-
-        <div>
-         <label for="sexo"> Indique su genero</label>
-         <input type="radio" name="sexo" id="" value="Masculino"> Masculino
-     
-     
-          <input type="radio" name="sexo" id="" value="Femenino">Femenino
-
-    
-           <input type="radio" name="sexo" id="" value="No especifico"> Prefiero no especificar
-        </div>
-    
-        <div>
-         <div>Acepta terminos y condiciones</div>
-          <input type="checkbox" name="" id="" value="1"> Si Acepto
-        </div>
-
-        <div>
-         <div>Acepta que le enviemos Mail</div>
-         <input type="checkbox" name="autorizacion" id="" value="si"> Si Acepto
-        </div>
-   
-        <div>
-         <textarea  name="" id="" cols="30" rows="10"> Dejanos tu opinin</textarea>
-        </div>
-
-        <div>
-          <input type="submit" value="Enviar">
-          <input type="reset" value="Borrar">
-         </div>
-    </fieldset>
 
 
 
 
-   
- 
 
 
 
 
-</form>
+      </form>
+    </div>
+
+  </main>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+      <footer class="footer">
+        <legend class="footer__titulo">Redes Sociales</legend>
+        <a href="https://es-la.facebook.com/gunsnroses">Facebook</a>
+        <a href="https://www.instagram.com/gunsnroses/">Instagram</a>
+        <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twiter</a>
+      </footer>
+
+    </div>
+  </div>
 
 
-</main>
 
 
-<footer class="footer">    
-    <legend class="footer__titulo">Redes Sociales</legend>
- <a href="https://es-la.facebook.com/gunsnroses">Facebook</a> 
- <a href="https://www.instagram.com/gunsnroses/">Instagram</a>
- <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twiter</a>
-</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 
 
 </body>
+
 </html>
