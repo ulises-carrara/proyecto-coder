@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62, 5%; }
+
+/*----------INDEX----------*/
+.encabezado {
+  background-color: yellow; }
+  .encabezado h1 {
+    font-size: 50px;
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red; }
+
+.navegacion {
+  border: 2px black solid;
+  background-color: red;
+  position: sticky;
+  top: 0px;
+  margin: 0px 200px; }
+  .navegacion li {
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block; }
+    .navegacion li a {
+      font-family: Syne Mono;
+      color: black;
+      text-decoration: overline underline; }
+    .navegacion li:hover {
+      background-color: yellow; }
+
+.seccion1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.principal {
+  background-color: none;
+  font-size: 30px;
+  font-family: Syne Mono; }
+
+.gridsIndex {
+  background: radial-gradient(yellow, red); }
+
+.imgPrueba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  padding: 30px; }
+
+/*----------HISTORIA----------*/
+.gridsHistoria {
+  background: radial-gradient(#c75959, red); }
+
+.encabezado {
+  background-color: yellow; }
+  .encabezado h1 {
+    font-size: 50px;
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red; }
+
+.historiaMain {
+  background-image: url(https://i.pinimg.com/originals/2d/60/87/2d60872b171cc9c73d7d903c89150ce6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .historiaMain .parrafoMain1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Syne Mono;
+    color: yellow; }
+  .historiaMain .historiaImg {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .historiaMain .imagen2 {
+    transition: all 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .historiaMain .imagen2:hover {
+      height: 300px;
+      margin: 25px; }
+  .historiaMain .imagen1 {
+    height: 200px;
+    transition: all 1s; }
+    .historiaMain .imagen1:hover {
+      height: 300px;
+      transform: rotate(360deg);
+      margin: 25px; }
+  .historiaMain .imagen2 {
+    height: 200px;
+    transition: all 1s; }
+    .historiaMain .imagen2:hover {
+      height: 300px;
+      margin: 25px; }
+
+/*----------FOOTER----------*/
+.footer {
+  display: inline-block;
+  bottom: 0px;
+  background-color: black;
+  padding: 5px 10px;
+  border: 3px yellow solid; }
+  .footer a {
+    display: inline-block;
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px; }
+    .footer a:hover {
+      background-color: yellow; }
+
+.footer__titulo {
+  color: red;
+  font-family: Syne Mono; }

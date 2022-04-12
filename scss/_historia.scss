@@ -1,0 +1,64 @@
+/*----------HISTORIA----------*/
+
+.gridsHistoria {
+    background: radial-gradient(rgb(199, 89, 89), rgb(255, 0, 0));
+}
+.encabezado {
+    background-color: $color_secundario;
+    h1 {
+        font-size: 50px;
+        font-family: Syne Mono;
+        text-align: center;
+        text-decoration: underline $color_primario;
+    }
+}
+.historiaMain {
+    background-image: url(https://i.pinimg.com/originals/2d/60/87/2d60872b171cc9c73d7d903c89150ce6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    .parrafoMain1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Syne Mono;
+        color: $color_secundario;   
+    }
+    .historiaImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen2 {
+        transition: all 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            height: 300px;
+            margin: 25px;
+        
+        }
+    
+    }
+    .imagen1{
+        height: 200px;
+        transition: all 1s;
+        &:hover{
+            height: 300px;
+            transform: rotate(360deg);
+            margin: 25px;
+        }
+    }
+    .imagen2{
+        height: 200px;
+        transition: all 1s;
+        &:hover{
+            height: 300px;
+            margin: 25px;
+        }
+    }
+
+
+    
+}

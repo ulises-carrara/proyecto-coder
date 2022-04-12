@@ -1,0 +1,54 @@
+/*----------INDEX----------*/
+
+.encabezado {
+    background-color: $color_secundario;
+    h1 {
+        font-size: 50px;
+        font-family: Syne Mono;
+        text-align: center;
+        text-decoration: underline $color_primario;
+    }
+}
+.navegacion {
+    border: 2px black solid;
+    background-color: $color_primario;
+    position: sticky;
+    top: 0px;
+    margin: 0px 200px;
+    li{
+        font-size: 20px;
+        padding: 10px 20px;
+        display: inline-block;
+        a{
+            font-family: Syne Mono;
+            color: black;
+            text-decoration: overline underline
+           }
+        &:hover{
+            background-color: $color_secundario;
+        }
+    }
+}
+.seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.principal {
+
+    background-color: none;
+    font-size: 30px;
+    font-family: Syne Mono;
+}
+.gridsIndex {
+    background: radial-gradient($color_secundario, $color_primario);
+}
+.imgPrueba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 30px;
+    
+}

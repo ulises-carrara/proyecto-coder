@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62, 5%;
+
+}
+
+@import "variables.scss";
+@import "index.scss";
+@import "integrantes.scss";
+@import "historia.scss";
+@import "discografia.scss";
+@import "contacto.scss";
+@import "footer.scss";
