@@ -4,7 +4,7 @@
     background-color: $color_secundario;
     h1 {
         font-size: 50px;
-        font-family: Syne Mono;
+        font-family: map-get($estilos, font );
         text-align: center;
         text-decoration: underline $color_primario;
     }
@@ -20,7 +20,7 @@
         padding: 10px 20px;
         display: inline-block;
         a{
-            font-family: Syne Mono;
+            font-family: map-get($estilos, font );
             color: black;
             text-decoration: overline underline
            }
@@ -39,10 +39,11 @@
 
     background-color: none;
     font-size: 30px;
-    font-family: Syne Mono;
+    font-family: map-get($estilos, font );
+    color: white;
 }
 .gridsIndex {
-    background: radial-gradient($color_secundario, $color_primario);
+    background: radial-gradient($color_primario , black);
 }
 .imgPrueba {
     display: flex;

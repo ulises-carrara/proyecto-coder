@@ -1,13 +1,13 @@
 /*----------HISTORIA----------*/
 
 .gridsHistoria {
-    background: radial-gradient(rgb(199, 89, 89), rgb(255, 0, 0));
+    background: radial-gradient($color_primario , black);
 }
 .encabezado {
     background-color: $color_secundario;
     h1 {
         font-size: 50px;
-        font-family: Syne Mono;
+        font-family:map-get($estilos, font );
         text-align: center;
         text-decoration: underline $color_primario;
     }
@@ -21,8 +21,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: Syne Mono;
-        color: $color_secundario;   
+        font-family: map-get($estilos, font );
+        color: white;
     }
     .historiaImg {
         display: flex;

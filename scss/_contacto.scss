@@ -1,0 +1,62 @@
+/*----------CONTACTO----------*/
+
+.bodyContacto{
+    background-color: black;
+}
+.encabezado {
+    background-color: $color_secundario;
+    h1 {
+        font-size: 50px;
+        font-family: map-get($estilos, font );
+        text-align: center;
+        text-decoration: underline $color_primario;
+    }
+}
+.contactoTexto {
+    font-family: map-get($estilos, font );
+    text-align: center;
+    text-decoration: underline $color_secundario;
+    font-size: 20px;
+    color: white;
+
+}
+.marco {
+    background-color: $color_secundario;
+    border-color: $color_primario;
+    legend {
+        font-family: map-get($estilos, font );
+        text-decoration: underline $color_primario;
+        font-size: 25px;
+        color: black;
+    }
+}
+.marco2{
+    background-color: $color_secundario;
+}
+
+.inputNombre{
+    width: 150px;
+    transition: all 1s;
+    &:focus {
+        width: 250px;
+        font-size: 25px;
+    }
+}
+.inputCorreo {
+    width: 150px;
+    transition: all 1s;
+    &:focus {
+        width: 250px;
+        font-size: 25px;
+    }
+}
+.inputTel {
+    width: 150px;
+    transition: all 1s;
+        &:focus {
+        width: 250px;
+        font-size: 25px;
+    }
+}
+
+

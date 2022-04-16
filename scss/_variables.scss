@@ -1,2 +1,16 @@
+
 $color_primario:red;
 $color_secundario:yellow;
+
+$estilos: (
+    font: Syne Mono,
+    color:#040404,
+);
+
+@mixin size($display, $aling, $justify) {
+    display: $display;
+    align-items: $aling;
+    justify-content: $justify;
+}
+    
+ 

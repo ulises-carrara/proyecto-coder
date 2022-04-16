@@ -19,5 +19,5 @@
 }
 .footer__titulo {
     color: $color_primario;
-    font-family: Syne Mono;
+    font-family: map-get($estilos, font );
 }

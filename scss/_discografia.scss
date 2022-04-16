@@ -1,0 +1,44 @@
+/*----------DISCOGRAFIA----------*/
+.bodyDisco{
+    background-color: black;
+}
+.encabezado {
+    background-color: $color_secundario;
+    h1 {
+        font-size: 50px;
+        font-family: map-get($estilos, font );
+        text-align: center;
+        text-decoration: underline $color_primario;
+    }
+}
+
+.titulo1 {
+    font-family: map-get($estilos, font );
+    text-align: center;
+    text-decoration: underline $color_secundario;
+    font-size: 25px;
+    color: $color_primario;
+}
+.Appetite{
+    @include size(flex, center, center)
+}
+
+.lies{
+   @extend .Appetite
+}
+.illusion{
+    @extend .Appetite
+
+}
+
+.illusion2{
+    @extend .Appetite
+}
+
+.Incident{
+    @extend .Appetite
+}
+
+.Democracy{
+    @extend .Appetite
+}

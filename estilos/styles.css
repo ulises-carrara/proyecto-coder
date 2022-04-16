@@ -39,10 +39,11 @@ html {
 .principal {
   background-color: none;
   font-size: 30px;
-  font-family: Syne Mono; }
+  font-family: Syne Mono;
+  color: white; }
 
 .gridsIndex {
-  background: radial-gradient(yellow, red); }
+  background: radial-gradient(red, black); }
 
 .imgPrueba {
   display: flex;
@@ -51,9 +52,105 @@ html {
   height: 400px;
   padding: 30px; }
 
+/*----------INTEGRANTES----------*/
+.gridsIntegrantes {
+  background-color: black; }
+
+.encabezado {
+  background-color: yellow; }
+  .encabezado h1 {
+    font-size: 50px;
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red; }
+
+/*AXL*/
+.axl {
+  background: linear-gradient(yellow, red); }
+  .axl .axlTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+    font-size: 25px; }
+  .axl .axlFoto, .axl .contAxl {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .axl .axlTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center; }
+
+/*SLASH*/
+.slash {
+  background: linear-gradient(red, yellow); }
+  .slash .slashTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline yellow;
+    font-size: 25px; }
+  .slash .slashFoto, .slash .contSlash {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .slash .slashTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center; }
+
+/*DUFF*/
+.duff {
+  background: linear-gradient(yellow, red); }
+  .duff .duffTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red;
+    font-size: 25px; }
+  .duff .duffFoto, .duff .contDuff {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .duff .duffTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center; }
+
+/*IZZY*/
+.izzy {
+  background: linear-gradient(red, yellow); }
+  .izzy .izzyTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline yellow;
+    font-size: 25px; }
+  .izzy .izzyFoto, .izzy .contIzzi {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .izzy .izzyTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center; }
+
+/*STEVEN*/
+.steven {
+  background: linear-gradient(yellow, red); }
+  .steven .stevenTitulo {
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red; }
+  .steven .stevenFoto, .steven .contSteve {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .steven .stevenTexto {
+    font-family: Syne Mono;
+    font-size: 20px;
+    text-align: center; }
+
 /*----------HISTORIA----------*/
 .gridsHistoria {
-  background: radial-gradient(#c75959, red); }
+  background: radial-gradient(red, black); }
 
 .encabezado {
   background-color: yellow; }
@@ -73,7 +170,7 @@ html {
     align-items: center;
     justify-content: center;
     font-family: Syne Mono;
-    color: yellow; }
+    color: white; }
   .historiaMain .historiaImg {
     display: flex;
     align-items: center;
@@ -99,6 +196,82 @@ html {
     .historiaMain .imagen2:hover {
       height: 300px;
       margin: 25px; }
+
+/*----------DISCOGRAFIA----------*/
+.bodyDisco {
+  background-color: black; }
+
+.encabezado {
+  background-color: yellow; }
+  .encabezado h1 {
+    font-size: 50px;
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red; }
+
+.titulo1 {
+  font-family: Syne Mono;
+  text-align: center;
+  text-decoration: underline yellow;
+  font-size: 25px;
+  color: red; }
+
+.Appetite, .lies, .illusion, .illusion2, .Incident, .Democracy {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*----------CONTACTO----------*/
+.bodyContacto {
+  background-color: black; }
+
+.encabezado {
+  background-color: yellow; }
+  .encabezado h1 {
+    font-size: 50px;
+    font-family: Syne Mono;
+    text-align: center;
+    text-decoration: underline red; }
+
+.contactoTexto {
+  font-family: Syne Mono;
+  text-align: center;
+  text-decoration: underline yellow;
+  font-size: 20px;
+  color: white; }
+
+.marco {
+  background-color: yellow;
+  border-color: red; }
+  .marco legend {
+    font-family: Syne Mono;
+    text-decoration: underline red;
+    font-size: 25px;
+    color: black; }
+
+.marco2 {
+  background-color: yellow; }
+
+.inputNombre {
+  width: 150px;
+  transition: all 1s; }
+  .inputNombre:focus {
+    width: 250px;
+    font-size: 25px; }
+
+.inputCorreo {
+  width: 150px;
+  transition: all 1s; }
+  .inputCorreo:focus {
+    width: 250px;
+    font-size: 25px; }
+
+.inputTel {
+  width: 150px;
+  transition: all 1s; }
+  .inputTel:focus {
+    width: 250px;
+    font-size: 25px; }
 
 /*----------FOOTER----------*/
 .footer {

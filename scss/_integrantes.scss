@@ -1,0 +1,159 @@
+/*----------INTEGRANTES----------*/
+.gridsIntegrantes {
+    background-color: black;
+}
+
+.encabezado {
+    background-color: $color_secundario;
+
+    h1 {
+        font-size: 50px;
+        font-family: map-get($estilos, font);
+        text-align: center;
+        text-decoration: underline $color_primario;
+    }
+}
+
+
+
+    /*AXL*/
+    .axl {
+        background: linear-gradient($color_secundario, $color_primario);
+
+        .axlTitulo {
+            font-family: map-get($estilos, font);
+            text-align: center;
+            text-decoration: underline $color_primario;
+            font-size: 25px;
+        }
+
+        .axlFoto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contAxl {
+            @extend .axlFoto
+        }
+
+        .axlTexto {
+            font-family: map-get($estilos, font);
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    /*SLASH*/
+    .slash {
+        background: linear-gradient($color_primario, $color_secundario);
+
+        .slashTitulo {
+            font-family: map-get($estilos, font);
+            text-align: center;
+            text-decoration: underline $color_secundario;
+            font-size: 25px;
+        }
+
+        .slashFoto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .contSlash {
+            @extend .slashFoto
+        }
+
+        .slashTexto {
+            font-family: map-get($estilos, font);
+            font-size: 20px;
+            text-align: center;
+        }
+
+    }
+
+    /*DUFF*/
+    .duff {
+        background: linear-gradient($color_secundario, $color_primario);
+
+        .duffTitulo {
+            font-family: map-get($estilos, font);
+            text-align: center;
+            text-decoration: underline $color_primario;
+            font-size: 25px;
+        }
+
+        .duffFoto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contDuff {
+           @extend .duffFoto
+        }
+
+        .duffTexto {
+            font-family: map-get($estilos, font);
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    /*IZZY*/
+    .izzy {
+        background: linear-gradient($color_primario, $color_secundario);
+
+        .izzyTitulo {
+            font-family: map-get($estilos, font);
+            text-align: center;
+            text-decoration: underline $color_secundario;
+            font-size: 25px;
+        }
+
+        .izzyFoto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contIzzi {
+            @extend .izzyFoto
+        }
+
+        .izzyTexto {
+            font-family: map-get($estilos, font);
+            font-size: 20px;
+            text-align: center;
+        }
+
+    }
+
+    /*STEVEN*/
+    .steven {
+        background: linear-gradient($color_secundario, $color_primario);
+
+        .stevenTitulo {
+            font-family: map-get($estilos, font);
+            text-align: center;
+            text-decoration: underline $color_primario;
+        }
+
+        .stevenFoto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contSteve {
+            @extend .stevenFoto 
+        }
+
+        .stevenTexto {
+            font-family: map-get($estilos, font);
+            font-size: 20px;
+            text-align: center;
+        }
+    }
