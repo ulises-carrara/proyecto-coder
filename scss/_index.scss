@@ -14,7 +14,7 @@
     background-color: $color_primario;
     position: sticky;
     top: 0px;
-    margin: 0px 200px;
+    
     li{
         font-size: 20px;
         padding: 10px 20px;
@@ -42,7 +42,7 @@
     font-family: map-get($estilos, font );
     color: white;
 }
-.gridsIndex {
+.indexBody {
     background: radial-gradient($color_primario , black);
 }
 .imgPrueba {

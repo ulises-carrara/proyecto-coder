@@ -18,8 +18,7 @@ html {
   border: 2px black solid;
   background-color: red;
   position: sticky;
-  top: 0px;
-  margin: 0px 200px; }
+  top: 0px; }
   .navegacion li {
     font-size: 20px;
     padding: 10px 20px;
@@ -42,7 +41,7 @@ html {
   font-family: Syne Mono;
   color: white; }
 
-.gridsIndex {
+.indexBody {
   background: radial-gradient(red, black); }
 
 .imgPrueba {
@@ -53,7 +52,7 @@ html {
   padding: 30px; }
 
 /*----------INTEGRANTES----------*/
-.gridsIntegrantes {
+.integrantesBody {
   background-color: black; }
 
 .encabezado {
@@ -149,7 +148,7 @@ html {
     text-align: center; }
 
 /*----------HISTORIA----------*/
-.gridsHistoria {
+.historiaBody {
   background: radial-gradient(red, black); }
 
 .encabezado {
